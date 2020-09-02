@@ -1,0 +1,17 @@
+Worst Case Runtime:
+
+	createDataSet: O(1)
+
+	destroyDataSet: O(1)
+
+	searchAge: O(n)
+	
+	searchID: O(n)
+
+	insertion: O(1)
+
+	deletion: O(n)
+
+	maxAgeGap: O(1)
+
+For this application, a set suited my processes best because while we don't know the maximum number of students, the memory can easily be dynamically reallocated in case it gets full. Because the application required numerous searches for a unique ID, using an array would be simple to fulfill the implementation necessary. Other implementations could have been used to fulfill the application and reduce the runtimes such as a BST or a heap to reduce the search times to O(log n) or O(h). I however, wasn't as comfortable applying these methods, and opted to go for a more friendly, albeit slower, implementation. 

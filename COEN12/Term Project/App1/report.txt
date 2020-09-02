@@ -1,0 +1,15 @@
+Worst Case Runtimes:
+
+	createDataSet: O(1)
+
+	destroyDataSet: O(1)
+
+	searchAge: O(n)
+
+	insertion: O(1)
+
+	deletion: O(n)
+
+	maxAgeGap: O(1)
+
+For this application I chose to use a set implementation. The reasons for this were given a maximum number of students and do a lot of search functions. Since searching using a set only gives a runtime of O(n), I figured it would be best, as it was an implementation I was familiar with. Other implementations could have been used such as a BST or a heap to further reduce the runtimes, but again I felt that I could implement the sets best and still maintain an efficient runtime.
