@@ -1,0 +1,7 @@
+Luke Manzitto
+Lab1 - Observations:
+
+Upon running the scripts some of my observations were how bash is unable to do floating point arithmetic. This is shown in the difference in calculating the area of a rectangle versus the circle.
+For the rectangle I was able to use expr to do the arithmetic, but because the area of the circle requires using floating points, I had to use bc. I also found it interesting that conditionals and loops
+required a line denoting the start and end of the conditional/loop. For example, when I wrote the if statement I had to start it with "then" end it with "fi", and when I wrote my while loop, I had to
+start it with "do" end it with "done".
