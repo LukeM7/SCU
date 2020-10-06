@@ -1,0 +1,21 @@
+Luke Manzitto
+
+Upon exeucting the program I immediately got a segmentation fault.
+After re-running it with a command line arguement of 3000 the program 
+executed correctly. When using delays of 500 the program printed each 
+process much faster than before, and when using 5000 it printed slower
+than with 3000ms delay.
+
+I found that for step 5 it was best to do the forking within a separate function.
+I originally tried using a for loop within main, but that method ending up proving
+wrong as I couldn't successfully fork the right amount of times using loops given
+the nature of forking.
+
+For step 6 threading proved to be far easier for me than forking. I used another thread to
+run a child process, and after using the documentation was able to pretty easily
+finish the step.
+
+Step 7 only required me to erase the original parent process conditional from the first step
+and add the code the lab described. This allowed the child process to execute the ls command
+and for the parent to wait for it to finish.
+
