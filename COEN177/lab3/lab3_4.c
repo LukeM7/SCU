@@ -1,3 +1,10 @@
+/*
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 4
+Description: replicates the cat /etc/passwd | grep root bash command
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

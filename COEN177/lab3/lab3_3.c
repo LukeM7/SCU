@@ -1,3 +1,10 @@
+/*
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 3
+Description: prints the command line arguements and the output of the ls command
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -27,6 +34,7 @@ int main(int argc, char* argv[]){
 				write(1," ",1);
 			}
 		}
+		// Runs and writes the ls command
 		dup2(fds[1],1);
 		execlp("ls","ls",0);
 		exit(0);

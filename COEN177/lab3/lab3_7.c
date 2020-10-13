@@ -1,3 +1,10 @@
+/*
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 6
+Description: creates 10 threads that print their id and index properly (no repeated indices)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

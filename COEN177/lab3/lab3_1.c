@@ -1,3 +1,9 @@
+/*
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 1
+Description: replicates the ls | more bash command
+*/
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

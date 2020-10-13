@@ -1,3 +1,10 @@
+/*
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 2
+Description: prints command line arguements
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

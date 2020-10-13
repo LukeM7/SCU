@@ -1,0 +1,10 @@
+Name: Luke Manzitto
+Date: 10/12/2020
+Title: Lab3 - step 6 and 7 observations
+Description: Observations of step6 output
+
+After compiling and running the code ten threads are created, but some are given the same index number.
+This is because the threads run both simultaneously and share memory. The threads are not properly synced
+and that's why this discrepancy appeared.
+
+This was solved by making the process sleep for 100 microseconds after each thread creation and before each iteration.
