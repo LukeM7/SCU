@@ -1,0 +1,12 @@
+Name: Luke Manzitto
+Date: 10/19/2020
+Task: Lab4 - step 1
+Description: Discusses the code of lab4_1.c
+
+When you run the program the threads all run and print out of order before returning to the main thread, but occasionally one of the threads will not execute until
+several threads have already returned. The threads always print they have returned in proper order, even if the one that executes later has already been stated
+to return. I did not notice any difference when running this program with another demanding process.
+
+The arg is per-thread and stored within the stack of the function.
+
+The local variable i is in shared state and stored in the data segment of memory.

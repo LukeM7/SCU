@@ -1,0 +1,9 @@
+Name: Luke Manzitto
+Date: 10/19/2020
+Task: Lab4 - step 2
+Description: Describing the results of lab4_2.c
+
+When the second for loop of the program is removed the only possible outputs of the thread are
+the thread function outputs (ie the hello statements).This is because the threads are not rejoining
+the main thread and the second for loop is not there to print the "thread returned" statement.
+

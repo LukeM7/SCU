@@ -1,0 +1,8 @@
+Luke Manzitto
+10/27/2020
+Lab5 - step1
+A description of step 1 and it's difference from threadHello.c
+
+When I run the program, the threads each execute sequentially, and return sequentially. This differs from threadHello.c
+as threadHello.c had no protection (ie synchronization) of its critical section, so multiple threads would execute at the same time
+with the same index, leading to multiple threads sharing the same index.
