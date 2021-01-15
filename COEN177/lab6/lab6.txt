@@ -1,0 +1,15 @@
+Luke Manzitto
+11/02/2020
+Lab 6
+Describes how to do the lab using ftp in Minix
+
+After opening your virtual desktop, open the terminal and enter "setup vmware".
+Then enter "minix-get-image". When completed, enter "vmware &" and wait for vmware to open.
+Open "Minix 3" in vmware. Enter "root" as the username, and then type "passwd" to set up a root
+password. Now after logging in enter "ipconfig". Open another terminal window an enter
+"ftp <ipconfig ip address>". Log in using root and the password you set up. Now enter
+"cd usr/src/kernel". Then enter "get main.c". Open your user directory in your virtual desktop
+and modify the main.c file that has been copied there. Add a print statement to the announcement
+function of your choosing. Save and go back to the terminal window using ftp. Enter "put main.c".
+Now go back to your minix VM and in the /usr/src directory enter "make world". When the command
+is finished enter "reboot" and you will see your added printf on startup.

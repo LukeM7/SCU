@@ -1,0 +1,6 @@
+Luke Manzitto
+1/11/2020
+Lab 1 - Notes
+Notes on step 3 and 4
+
+When running step1 without any cli arguments produces a seg fault. I believe this is a result of my code attempting to access memory not allocated to my process when trying to access argc[1], which won't exist without entering an argument. Entering arguements of 500 and 5000 fixes this, causing the parent and child processes to print their statements in alternating order. 500 is of course faster as it is a smaller delay.
