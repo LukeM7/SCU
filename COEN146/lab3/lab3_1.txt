@@ -1,0 +1,42 @@
+Luke Manzitto
+1/25/2021
+Lab 3 - Step 1
+Running Linux networking commands and writing down my observations
+
+netstat:
+Running shows each active internet connection on my system as well as all active UNIX domain sockets. Internet connections
+are broken down into each of their protocols, Recv-Q, Send-Q, local addresses, foriegn addresses, and their state.
+Each UNIX socket is broken down into protocols, reference counts, flags, types, states, I-Nodes, and Paths. Using the -r flag
+will show the routing table, while -a will show the sockets.
+
+ifconfig:
+Allows you to configure network interfaces. -a displays all interfaces currently available, -s displays a short list, and 
+-v is more verbose. Showed my network interfaces info such as RX packets, TX packets, etc.
+
+hostname:
+Prints the name of the host network. For me it was linux10601. 
+
+ping:
+Allows the user to send an ECHO_REQUEST to a network host. You can use an ip or a DNS hostname such as "google.com".
+Flags allow for various other functionalities such as sending packets in specified intervals. Pinging by defualt sends
+64byte packets, upon stopping the ping requests the number of packets trnasmitted, recieved, the time and packet loss
+will be displayed.
+
+traceroute:
+Pints the route packets trace to network host. To trace my localhost took 30 hops max, and 60 byte packets.
+
+telnet:
+Communicates with another host using telnet protocol. Entering the command without another host put the shell in telnet
+command mode.
+
+host/dig:
+Performs DNS lookups. Entering host google.com brought up google.com's IP address.
+
+route:
+Manipulates the IP routing table. Apparently this command is obsolete and has been replaced with ip route. Entering route
+will bring up the system's kernel IP routing table.
+
+arp:
+Allows the user to manipulate the system ARP cache. Executing this command brought up the Internet-to-Ethernet address
+translation table used by the ARP.
+

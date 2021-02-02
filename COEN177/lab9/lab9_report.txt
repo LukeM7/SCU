@@ -1,0 +1,622 @@
+Luke Manzitto
+Lab 9 - Report
+12/07/2020
+Report for results of lab 9
+
+
+After measuring the I/O performance across all steps I noticed these similarities. For all files, the larger the buffer, the faster
+they were read, and the less threads used to complete reading/writing the faster the program would complete. 
+
+
+
+Step 2: 
+
+Step2 file1.txt
+
+real	0m0.013s
+user	0m0.002s
+sys	0m0.000s
+ 
+Step2 file2.txt
+
+real	0m0.012s
+user	0m0.000s
+sys	0m0.002s
+ 
+Step2 file3.txt
+
+real	0m0.017s
+user	0m0.003s
+sys	0m0.003s
+ 
+Step2 file4.txt
+
+real	0m0.046s
+user	0m0.016s
+sys	0m0.020s
+ 
+
+Step 3: 
+
+Step3 file1.txt 100
+
+real	0m0.013s
+user	0m0.000s
+sys	0m0.001s
+ 
+Step3 file1.txt 1000
+
+real	0m0.009s
+user	0m0.000s
+sys	0m0.001s
+ 
+Step3 file1.txt 10000
+
+real	0m0.012s
+user	0m0.002s
+sys	0m0.000s
+ 
+Step3 file1.txt 100000
+
+real	0m0.013s
+user	0m0.002s
+sys	0m0.000s
+ 
+Step3 file2.txt 100
+
+real	0m0.011s
+user	0m0.002s
+sys	0m0.000s
+ 
+Step3 file2.txt 1000
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.002s
+ 
+Step3 file2.txt 10000
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.001s
+ 
+Step3 file2.txt 100000
+
+real	0m0.010s
+user	0m0.001s
+sys	0m0.001s
+ 
+Step3 file3.txt 100
+
+real	0m0.015s
+user	0m0.003s
+sys	0m0.003s
+ 
+Step3 file3.txt 1000
+
+real	0m0.014s
+user	0m0.000s
+sys	0m0.005s
+ 
+Step3 file3.txt 10000
+
+real	0m0.014s
+user	0m0.001s
+sys	0m0.003s
+ 
+Step3 file3.txt 100000
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.003s
+ 
+Step3 file4.txt 100
+
+real	0m0.066s
+user	0m0.030s
+sys	0m0.025s
+ 
+Step3 file4.txt 1000
+
+real	0m0.043s
+user	0m0.013s
+sys	0m0.020s
+ 
+Step3 file4.txt 10000
+
+real	0m0.036s
+user	0m0.003s
+sys	0m0.020s
+ 
+Step3 file4.txt 100000
+
+real	0m0.034s
+user	0m0.001s
+sys	0m0.020s
+ 
+
+Step 4: 
+
+Step4 file1.txt 100
+
+real	0m0.054s
+user	0m0.000s
+sys	0m0.018s
+ 
+Step4 file1.txt 1000
+
+real	0m0.032s
+user	0m0.000s
+sys	0m0.003s
+ 
+Step4 file1.txt 10000
+
+real	0m0.030s
+user	0m0.000s
+sys	0m0.002s
+ 
+Step4 file1.txt 100000
+
+real	0m0.027s
+user	0m0.001s
+sys	0m0.001s
+ 
+Step4 file2.txt 100
+
+real	0m0.049s
+user	0m0.003s
+sys	0m0.001s
+ 
+Step4 file2.txt 1000
+
+real	0m0.052s
+user	0m0.000s
+sys	0m0.004s
+ 
+Step4 file2.txt 10000
+
+real	0m0.051s
+user	0m0.001s
+sys	0m0.002s
+ 
+Step4 file2.txt 100000
+
+real	0m0.051s
+user	0m0.000s
+sys	0m0.003s
+ 
+Step4 file3.txt 100
+
+real	0m0.167s
+user	0m0.018s
+sys	0m0.014s
+ 
+Step4 file3.txt 1000
+
+real	0m0.160s
+user	0m0.004s
+sys	0m0.024s
+ 
+Step4 file3.txt 10000
+
+real	0m0.158s
+user	0m0.004s
+sys	0m0.022s
+ 
+Step4 file3.txt 100000
+
+real	0m0.171s
+user	0m0.000s
+sys	0m0.023s
+ 
+Step4 file4.txt 100
+
+real	0m1.315s
+user	0m0.064s
+sys	0m0.163s
+ 
+Step4 file4.txt 1000
+
+real	0m1.329s
+user	0m0.048s
+sys	0m0.148s
+ 
+Step4 file4.txt 10000
+
+real	0m1.267s
+user	0m0.024s
+sys	0m0.169s
+ 
+Step4 file4.txt 100000
+
+real	0m1.269s
+user	0m0.002s
+sys	0m0.158s
+ 
+
+Step 5: 
+
+Step5 file1.txt 100 2
+
+real	0m0.081s
+user	0m0.004s
+sys	0m0.021s
+ 
+Step5 file1.txt 100 8
+
+real	0m0.094s
+user	0m0.006s
+sys	0m0.010s
+ 
+Step5 file1.txt 100 32
+
+real	0m0.301s
+user	0m0.010s
+sys	0m0.053s
+ 
+Step5 file1.txt 100 64
+
+real	0m0.553s
+user	0m0.027s
+sys	0m0.089s
+ 
+Step5 file1.txt 1000 2
+
+real	0m0.047s
+user	0m0.002s
+sys	0m0.003s
+ 
+Step5 file1.txt 1000 8
+
+real	0m0.072s
+user	0m0.001s
+sys	0m0.011s
+ 
+Step5 file1.txt 1000 32
+
+real	0m0.249s
+user	0m0.004s
+sys	0m0.042s
+ 
+Step5 file1.txt 1000 64
+
+real	0m0.455s
+user	0m0.017s
+sys	0m0.074s
+ 
+Step5 file1.txt 10000 2
+
+real	0m0.036s
+user	0m0.000s
+sys	0m0.004s
+ 
+Step5 file1.txt 10000 8
+
+real	0m0.095s
+user	0m0.002s
+sys	0m0.011s
+ 
+Step5 file1.txt 10000 32
+
+real	0m0.241s
+user	0m0.002s
+sys	0m0.046s
+ 
+Step5 file1.txt 10000 64
+
+real	0m0.404s
+user	0m0.008s
+sys	0m0.089s
+ 
+Step5 file1.txt 100000 2
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.005s
+ 
+Step5 file1.txt 100000 8
+
+real	0m0.087s
+user	0m0.000s
+sys	0m0.012s
+ 
+Step5 file1.txt 100000 32
+
+real	0m0.231s
+user	0m0.004s
+sys	0m0.042s
+ 
+Step5 file1.txt 100000 64
+
+real	0m0.432s
+user	0m0.004s
+sys	0m0.090s
+ 
+Step5 file2.txt 100 2
+
+real	0m0.067s
+user	0m0.006s
+sys	0m0.005s
+ 
+Step5 file2.txt 100 8
+
+real	0m0.096s
+user	0m0.020s
+sys	0m0.040s
+ 
+Step5 file2.txt 100 32
+
+real	0m0.439s
+user	0m0.070s
+sys	0m0.128s
+ 
+Step5 file2.txt 100 64
+
+real	0m0.803s
+user	0m0.152s
+sys	0m0.273s
+ 
+Step5 file2.txt 1000 2
+
+real	0m0.082s
+user	0m0.002s
+sys	0m0.007s
+ 
+Step5 file2.txt 1000 8
+
+real	0m0.108s
+user	0m0.008s
+sys	0m0.046s
+ 
+Step5 file2.txt 1000 32
+
+real	0m0.452s
+user	0m0.020s
+sys	0m0.125s
+ 
+Step5 file2.txt 1000 64
+
+real	0m0.890s
+user	0m0.037s
+sys	0m0.254s
+ 
+Step5 file2.txt 10000 2
+
+real	0m0.087s
+user	0m0.004s
+sys	0m0.004s
+ 
+Step5 file2.txt 10000 8
+
+real	0m0.126s
+user	0m0.004s
+sys	0m0.049s
+ 
+Step5 file2.txt 10000 32
+
+real	0m0.508s
+user	0m0.020s
+sys	0m0.133s
+ 
+Step5 file2.txt 10000 64
+
+real	0m0.932s
+user	0m0.032s
+sys	0m0.265s
+ 
+Step5 file2.txt 100000 2
+
+real	0m0.079s
+user	0m0.001s
+sys	0m0.007s
+ 
+Step5 file2.txt 100000 8
+
+real	0m0.185s
+user	0m0.003s
+sys	0m0.027s
+ 
+Step5 file2.txt 100000 32
+
+real	0m0.514s
+user	0m0.005s
+sys	0m0.107s
+ 
+Step5 file2.txt 100000 64
+
+real	0m0.727s
+user	0m0.008s
+sys	0m0.205s
+ 
+Step5 file3.txt 100 2
+
+real	0m0.262s
+user	0m0.051s
+sys	0m0.034s
+ 
+Step5 file3.txt 100 8
+
+real	0m0.347s
+user	0m0.171s
+sys	0m0.232s
+ 
+Step5 file3.txt 100 32
+
+real	0m1.693s
+user	0m0.531s
+sys	0m0.712s
+ 
+Step5 file3.txt 100 64
+
+real	0m3.326s
+user	0m1.093s
+sys	0m1.387s
+ 
+Step5 file3.txt 1000 2
+
+real	0m0.197s
+user	0m0.010s
+sys	0m0.034s
+ 
+Step5 file3.txt 1000 8
+
+real	0m0.363s
+user	0m0.057s
+sys	0m0.346s
+ 
+Step5 file3.txt 1000 32
+
+real	0m1.534s
+user	0m0.183s
+sys	0m0.996s
+ 
+Step5 file3.txt 1000 64
+
+real	0m3.393s
+user	0m0.318s
+sys	0m1.620s
+ 
+Step5 file3.txt 10000 2
+
+real	0m0.208s
+user	0m0.007s
+sys	0m0.056s
+ 
+Step5 file3.txt 10000 8
+
+real	0m0.280s
+user	0m0.031s
+sys	0m0.310s
+ 
+Step5 file3.txt 10000 32
+
+real	0m1.639s
+user	0m0.072s
+sys	0m0.729s
+ 
+Step5 file3.txt 10000 64
+
+real	0m3.228s
+user	0m0.171s
+sys	0m2.007s
+ 
+Step5 file3.txt 100000 2
+
+real	0m0.195s
+user	0m0.004s
+sys	0m0.051s
+ 
+Step5 file3.txt 100000 8
+
+real	0m0.334s
+user	0m0.006s
+sys	0m0.362s
+ 
+Step5 file3.txt 100000 32
+
+real	0m1.776s
+user	0m0.023s
+sys	0m0.831s
+ 
+Step5 file3.txt 100000 64
+
+real	0m3.954s
+user	0m0.034s
+sys	0m1.637s
+ 
+Step5 file4.txt 100 2
+
+real	0m1.463s
+user	0m0.273s
+sys	0m0.267s
+ 
+Step5 file4.txt 100 8
+
+real	0m3.549s
+user	0m1.154s
+sys	0m1.647s
+ 
+Step5 file4.txt 100 32
+
+real	0m6.863s
+user	0m4.028s
+sys	0m5.389s
+ 
+Step5 file4.txt 100 64
+
+real	0m16.032s
+user	0m8.284s
+sys	0m10.910s
+ 
+Step5 file4.txt 1000 2
+
+real	0m1.296s
+user	0m0.105s
+sys	0m0.337s
+ 
+Step5 file4.txt 1000 8
+
+real	0m2.620s
+user	0m0.332s
+sys	0m2.227s
+ 
+Step5 file4.txt 1000 32
+
+real	0m5.250s
+user	0m1.215s
+sys	0m6.347s
+ 
+Step5 file4.txt 1000 64
+
+real	0m14.238s
+user	0m2.571s
+sys	0m14.037s
+ 
+Step5 file4.txt 10000 2
+
+real	0m1.288s
+user	0m0.023s
+sys	0m0.223s
+ 
+Step5 file4.txt 10000 8
+
+real	0m2.772s
+user	0m0.179s
+sys	0m2.526s
+ 
+Step5 file4.txt 10000 32
+
+real	0m5.615s
+user	0m0.649s
+sys	0m7.364s
+ 
+Step5 file4.txt 10000 64
+
+real	0m15.664s
+user	0m1.473s
+sys	0m16.654s
+ 
+Step5 file4.txt 100000 2
+
+real	0m1.252s
+user	0m0.005s
+sys	0m0.367s
+ 
+Step5 file4.txt 100000 8
+
+real	0m1.541s
+user	0m0.033s
+sys	0m2.055s
+ 
+Step5 file4.txt 100000 32
+
+real	0m10.088s
+user	0m0.145s
+sys	0m7.271s
+ 
+Step5 file4.txt 100000 64
+
+real	0m19.090s
+user	0m0.256s
+sys	0m14.601s
+ 

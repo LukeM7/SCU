@@ -1,0 +1,7 @@
+Luke Manzitto
+1/25/2021
+Lab 3 - Step 5
+Using Telnet to connect to the hosts in step 2
+
+Connecting to google.com and performing a GET request on a random search ended up producing a ton of gibberish.
+Using port 80 allowed for my system to connect to every server, but using port 3389 made connection impossible.
