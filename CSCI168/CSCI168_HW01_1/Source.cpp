@@ -19,7 +19,7 @@ int main() {
 	GLFWwindow* window = glfwCreateWindow(600, 600, "Chapter 2 - Program 1", NULL, NULL);
 	glfwMakeContextCurrent(window);
 
-	if (glewInit != GLEW_OK) {
+	if (glewInit() != GLEW_OK) {
 		printf("glew failed to init\n");
 		return -1;
 	}

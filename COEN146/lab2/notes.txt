@@ -1,0 +1,22 @@
+Luke Manzitto
+01/18/2021
+Lab2 - Notes
+Notes about the Lab2
+
+Step 1:
+Using the API functions made copying pretty easy. The challenge came from figuring out how to copy
+files that used a buffer that was not a multiple of the file size. This was solved by checking if the reader
+had made it to the end of the file, and calculating the remaining bytes that were needed to properly copy over.
+This avoided a copy with a larger size than the original.
+
+Step2:
+Using system calls I was able to avoid the problem of step1. Instead I could just use simple read and write calls
+that wouldn't go over like the system functions did.
+
+Step3:
+Each type of copy was clocked to last 0.0000s. I presume this means it was able to be copied extremely fast using either method.
+
+Step4:
+A copy thread function was created that used the step1 implementation to copy. I passed the index of the for loop that would execute
+each thread so each thread had a corresponding file to copy. I could then modify the number of the file name being copied since each
+the same name but a different number.
