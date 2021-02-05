@@ -1,5 +1,0 @@
-C:\Users\lukem\source\repos\SCU\CSCI168\CSCI168_HW01_1\Debug\CSCI168_HW01_1.vcxproj.CopyComplete
-C:\Users\lukem\source\repos\SCU\CSCI168\CSCI168_HW01_1\Debug\CSCI168_HW01_1.exe
-C:\Users\lukem\source\repos\SCU\CSCI168\CSCI168_HW01_1\Debug\CSCI168_HW01_1.pdb
-C:\Users\lukem\source\repos\SCU\CSCI168\CSCI168_HW01_1\Debug\glew32d.dll
-C:\Users\lukem\source\repos\SCU\CSCI168\CSCI168_HW01_1\Debug\glfw3.dll

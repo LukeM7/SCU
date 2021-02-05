@@ -1,0 +1,13 @@
+Luke Manzitto
+1/25/2021
+Lab 3 - Step 4
+Observations of connecting to a server using telnet
+
+a) Launching this command connects me with the umass web server. I can then enter commands which appear to be HTTP requests.
+
+b) Entering this GET request displays the contents of that webpage in code (HTML, JS, etc).
+
+c) 
+- index.php
+- HTTP 1.1
+- Text is formatted in HTML, pictures are formatted as hrefs.

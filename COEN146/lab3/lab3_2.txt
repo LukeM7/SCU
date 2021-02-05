@@ -1,0 +1,19 @@
+Luke Manzitto
+1/25/2021
+Lab 3 - Step 2
+Pings 3 different internet hosts, each from a different continent. Identifies the packet loss, RTT, and the correlation
+between these measurements.
+
+a)
+	google.com: 0% packet loss
+	hostuk.org: 0% packet loss
+	yandex.ru: 0% packet loss
+
+b)
+	google.com: 2.384ms average RTT
+	hostuk.org: 137.977ms average RTT
+	yandex.ru: 176.449ms average RTT
+
+c) Packet loss remained at 0% as the connection managed to exist uninterrupted. RTT was much longer depending on how far the
+server being pinged was from my system. hostuk.org was closer than yandex.ru, so the average RTT was smaller. google.com on the
+other hand is much closer, and thus the average RTT is significantly lower than either of the others.
