@@ -1,0 +1,3 @@
+﻿  HW03_1.cpp
+C:\Users\lukem\source\repos\SCU\CSCI168\HW03\HW03_1.cpp(74,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  HW03.vcxproj -> C:\Users\lukem\source\repos\SCU\CSCI168\HW03\Debug\HW03_1.exe
