@@ -1,0 +1,5 @@
+C:\Users\lukem\source\repos\SCU\HW_05_2\Debug\HW_05_2.vcxproj.CopyComplete
+C:\Users\lukem\source\repos\SCU\HW_05_2\Debug\HW_05_2.exe
+C:\Users\lukem\source\repos\SCU\HW_05_2\Debug\HW_05_2.pdb
+C:\Users\lukem\source\repos\SCU\HW_05_2\Debug\glew32d.dll
+C:\Users\lukem\source\repos\SCU\HW_05_2\Debug\glfw3.dll
